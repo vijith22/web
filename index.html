@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="header">
+        <h1 id="prof">PROFILE</h1>
+        <div class="cont1">
+          <div id="abt">
+            <h3 id=" abt-head">About</h3>
+            <p id="abt-para"> <!--Change about u here-->
+                I'm a B.Tech student with a deep passion for traveling and photography. Capturing the world through my lens is one of my favorite pursuits, as I love to document the beauty and stories that each new place offers. When I'm not exploring, you'll often find me cruising down the road at over 150 km/h, with the perfect soundtrack blasting in the background, as music fuels my love for adventure and speed.
+            </p>
+          </div>
+          <div id="img">
+            <a id="lind" style="text-decoration: none; color: black;" href="https://in.linkedin.com/in/vijith-v-0491a1258"><img id="img1" src="pic.jpg" alt="" /></a>
+            
+          </div>
+          <div id="details">
+            <h3>Details</h3>
+            <span class="det"><strong>Name:</strong><br />Vijith V</span><!--Change Name-->
+            <br />
+            <br />
+            <span class="det"><strong>Age:</strong><br />21</span><!--Change Age-->
+            <br />
+            <br />
+            <span class="det"
+              ><strong>Address:</strong><br />V.V Villa , Vellarda</span> <!--Change address-->
+            
+            <br>
+            <br>
+            <button id="btn" onclick="hello()">Greet</button>
+          </div>
+        </div>
+        <div  class="tab1">
+          <table id="tab" border="1"> <!--Change table conetnts here-->
+            <thead>
+              <tr>
+                <th>Sl.No</th>
+                <th>Items</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Kayaking</td>
+                <td><p>&#9989</p></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Explore the World</td>
+                <td><p>&#10060</p></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Get a Job</td>
+                <td><p>&#10060</p></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Go Back To Delhi</td>
+                <td><p>&#10060</p></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>All India Trip</td>
+                <td><p>&#10060</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="music">
+            <img id="song-title" src="song-img.jpg" alt="pic">
+            <audio autoplay controls id="song" src="song.mp3"></audio> <!--Change Song-->
+          </div>
+        </div>
+        <div class="clip">
+            <video   loop autoplay controls  id="vid" src="vid.mp4"></video> <!--Change Movie Clip-->
+
+        </div>
+      </div>
+    </div>
+    <script>
+      function hello(){
+        alert("Hey, I am Vijith. Welcome to my World") //Change Message
+      }
+    </script>
+  </body>
+</html>
